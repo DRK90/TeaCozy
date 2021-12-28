@@ -1,0 +1,106 @@
+body {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+    border: 0;
+    margin: 0;
+}
+
+header {
+    display: inline-flex;    
+    height: 69px;
+    align-items: center;
+    border-bottom: 1px solid seashell;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.logoBox {
+    display: flex;
+    margin-left: 10px;
+    height: 50px;
+}
+
+.logo {
+    height: 50px;
+    width: auto;
+}
+
+.nav{
+    width: 33%;
+    text-decoration: underline;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10px;
+}
+
+.mission{
+    background-image: url(./img/img-mission-background.webp);
+    background-size: 1200px 700px;  
+    height: 700px;
+    background-position: center;   
+    background-repeat: no-repeat;    
+    display: flex;
+    justify-content: center; 
+    align-items: center;   
+   
+}
+
+.missionText{
+    width: 1200px;
+    height: fit-content;
+    background-color: black;
+    margin: 0;
+    padding: 0;    
+}
+
+.teaMonth{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.imgBox{
+    display: flex;    
+    flex-direction: column; 
+    padding: 10px;         
+}
+
+.img{
+    width: 300px;
+    height: auto;    
+}
+
+.locationMain{
+    background-image: url(./img/img-locations-background.webp);
+    background-size: 1200px 500px;
+    height:500px;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+#locationBanner {
+    text-align: center;
+}
+
+.locationList{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    width: 1000px;
+    justify-content: space-between;
+}
+
+.locationItem{
+    width: 300px;
+    background-color: black;
+    opacity: 1;
+}
+
+.contact{
+    height: 200px;
+}
