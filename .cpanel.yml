@@ -4,5 +4,5 @@ deployment:
   tasks: 
     - export DEPLOYPATH=/home/daniecom/public_html/resources/projects/teaCozy
     - /bin/cp index.html $DEPLOYPATH
-    - /bin/cp -R resources $DEPLOYPATH
+    - /bin/cp style.css $DEPLOYPATH
     
